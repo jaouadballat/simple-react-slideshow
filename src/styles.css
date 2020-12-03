@@ -1,0 +1,58 @@
+.slide-container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.controller {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.container {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  border: 2px solid lightcoral;
+}
+
+#img1 {
+  background-color: lightblue;
+}
+
+#img2 {
+  background-color: lightgray;
+}
+
+#img3 {
+  background-color: lightgreen;
+}
+
+#img4 {
+  background-color: lightpink;
+}
+
+.leftIcon,
+.rightIcon {
+  cursor: pointer;
+}
+
+.leftIcon {
+  margin-left: 20px;
+}
+
+.rightIcon {
+  margin-right: 20px;
+}
